@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Calculateur de paie</h1>
+    </div>
+    <div class="main">
+      <label for="working-day">Jour travaillés</label>
+      <input
+        type="number"
+        name="working-day
+      "
+        value="20"
+        id="workingDay"
+      />
+      <label for="hourly-rate">Taux horraires</label>
+      <input
+        type="number"
+        name="hourly-rate
+      "
+        value="10.85"
+        id="hourlyRate"
+      />
+      <label for="normal-hour">Heures normales</label>
+      <input
+        type="number"
+        name="normal-hour
+      "
+        value="151.67"
+        id="normalHour"
+      />
+      <label for="extra-hour">Heures majorées à 25%</label>
+      <input
+        type="number"
+        name="extra-hour
+      "
+        value="0"
+        id="extraHour"
+      />
+      <label for="extra-hour">Heures majorées à 50%</label>
+      <input
+        type="number"
+        name="ultra-hour
+      "
+        value="0"
+        id="ultraHour"
+      />
+      <label for="travellingExpenses">Frais de déplacement</label>
+      <input
+        type="number"
+        name="travellingExpenses
+      "
+        value="10"
+        id="travellingExpenses"
+      />
+      <label for="foodBasket">Panier repas</label>
+      <input
+        type="number"
+        name="foodBasket
+      "
+        value="6.70"
+        id="foodBasket"
+      />
+      <label for="soilingBonus">Prime de salissure</label>
+      <input
+        type="number"
+        name="soilingBonus
+      "
+        value="1.90"
+        id="soilingBonus"
+      />
+      <p id="result">0</p>
+      <button id="confirmButton">Valider</button>
+    </div>
+  </body>
+  <script src="./index.js"></script>
+</html>
